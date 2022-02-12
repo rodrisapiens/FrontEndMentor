@@ -1,0 +1,77 @@
+.qtitle
+{
+    font-size: 12px;
+    font-weight: 0700;
+    color: #68696E;
+}
+.qtitle:hover
+{
+    color:#EDBEB3;
+
+}
+.btnOFF
+{
+    background-color: white;
+border-style: none;
+width: 307px;
+height: 40px;
+display: grid;
+justify-items: flex-start;
+padding: 3px;
+border-bottom-color: #F2F2F2;
+border-bottom-style: solid;
+align-content: center;
+}
+
+.arrowdown
+{
+    justify-self: end;
+background-color: transparent;
+border-style: hidden;
+margin-top: -32px;
+margin-right: 10px;
+}
+.arrowup
+{
+    justify-self: end;
+background-color: transparent;
+border-style: hidden;
+margin-top: -32px;
+margin-right: 10px;
+ transform: rotate(180deg);
+ }
+.title
+{
+font-size: 27px;
+height: fit-content;
+}
+.faq
+{
+    display: grid;
+padding-top: 37px;
+padding-bottom: 57px;
+}
+.btnON
+{
+    background-color: white;
+    border-style: none;
+    width: 307px;
+    height: 80px;
+    display: grid;
+    justify-items: flex-start;
+    padding: 3px;
+    border-bottom-color: #F2F2F2;
+    border-bottom-style: solid;
+    align-content: center;
+    color:#ACACB0;
+    transition-duration:0.2s;
+}
+ .ansr
+{
+    margin-top: -12px;
+    text-align: left;    
+} 
+@media (max-width:375px) {
+    
+    
+}

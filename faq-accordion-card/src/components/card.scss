@@ -1,0 +1,27 @@
+.card
+{
+    background-color: white;
+    height: 425px;
+    width: 770px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left
+{
+    background-image: url("./illustration-woman-online-desktop.svg"), url("./bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain,175%;
+    background-position-x: -67px,-339px;
+    background-position-y: 84px,-147px;
+}
+.box
+{
+    margin-top: 201px;
+width: 37%;
+margin-left: -65px;
+}
+.faq
+{
+    display: grid;  
+}

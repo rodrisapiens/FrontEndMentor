@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background: linear-gradient(#af67e9, #6565e7);
+  background-attachment: fixed;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.App {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5rem;
+}
+
+h1 {
+  color: #1E1E34;
+  font-size: 30px;
+}
+
+@media (max-width: 375px) {
+  .App {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/*# sourceMappingURL=App.css.map */
