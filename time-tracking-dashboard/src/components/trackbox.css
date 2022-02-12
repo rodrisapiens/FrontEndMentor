@@ -1,0 +1,107 @@
+.Work {
+  grid-area: Work;
+  background-image: url("./icon-work.svg");
+  background-color: #ff8b64;
+  grid-area: Work;
+  border-radius: 10px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.Play {
+  background-image: url("./icon-play.svg");
+  background-color: #55c2e5;
+  grid-area: Play;
+  border-radius: 10px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.Study {
+  background-image: url("./icon-study.svg");
+  background-color: #ff5e7d;
+  grid-area: Study;
+  border-radius: 10px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.Exercise {
+  background-image: url("./icon-exercise.svg");
+  background-color: #4bcf83;
+  grid-area: Excercise;
+  border-radius: 10px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.Social {
+  background-image: url("./icon-social.svg");
+  background-color: #7235d1;
+  grid-area: Social;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  border-radius: 10px;
+}
+
+.SelfCare {
+  background-image: url("./icon-self-care.svg");
+  background-color: #f1c75b;
+  grid-area: SelfCare;
+  border-radius: 10px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.insideBox {
+  background-color: #1d204b;
+  border-radius: 10px;
+  height: 80%;
+  padding: 1em;
+  color: white;
+  font-weight: 300;
+}
+
+.insideBox:hover {
+  background-color: #34397b;
+}
+
+.line {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.dots {
+  margin-top: -13px;
+  margin-left: 50px;
+  font-size: x-large;
+  margin-bottom: 0;
+}
+
+h5 {
+  margin: 0;
+}
+/*# sourceMappingURL=trackbox.css.map */

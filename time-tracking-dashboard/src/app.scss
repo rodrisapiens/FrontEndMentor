@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    background-color: #0d1323;
+    font-family: "Rubik", sans-serif;
+    display: grid;
+    justify-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+}
+.dashBoard {
+    display: grid;
+    grid-template-areas:
+        "jeremy Work Play Study"
+        "jeremy Excercise Social SelfCare";
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    grid-gap: 1.2em;    
+    width: 51vw;
+    height: 51vh;
+}
+.img-jeremy {
+    width: 40%;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 2px;
+}
+.jeremyRobson {
+    color: #b7adff;
+    grid-area: jeremy;
+    display: grid;
+    border-radius: 10px;
+    background-color: #1d204b;
+}
+.violet {
+    padding: 1.2em;
+    background-color: #5746ea;
+    border-radius: inherit;
+}
+.sectionBtn {
+    background-color: transparent;
+    color: #b7adff;
+    border-style: none;
+    width: fit-content;
+    font-size: 12px;
+
+}
+.sectionBtn:hover {
+    color: white;
+}
+.buttons {
+    display: grid;
+    justify-content: left;
+    padding: 1em;
+}
+.name {
+    color: #f8f7ff;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-top: 0px;
+}
+.sectionBtnOn {
+    background-color: transparent;
+    color: white;
+    border-style: none;
+    width: fit-content;
+    font-size: 12px;
+}
+h5 {
+    font-weight: normal;
+    margin-top: 0px;
+}
+.now {
+    font-weight: unset;
+    margin-bottom: -4px;
+}
+.last {
+    font-size: 11px;
+    color: #b7adff;
+}
+.reportFor {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+/* .Work {
+    background-image: url("./components/icon-work.svg");
+    background-size: 100%;
+}
+.Play {
+    background-image: url("./components/icon-play.svg");
+}
+.Study {
+    background-image: url("./components/icon-study.svg");
+}
+.Exercise {
+    background-image: url("./components/icon-exercise.svg");
+}
+.Social {
+    background-image: url("./components/icon-social.svg");
+}
+.SelfCare {
+    background-image: url("./components/icon-self-care.svg"); 
+}
+*/
