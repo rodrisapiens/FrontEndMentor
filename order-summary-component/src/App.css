@@ -1,0 +1,15 @@
+.App {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(D:\Rodrigo\Documentos\codes\frontend-mentor\order-summary-component\src\Components\pattern-background-desktop.svg);
+  background-size: cover;
+  background-position: right;
+  background-position-y: -95px;
+}
+/*# sourceMappingURL=App.css.map */

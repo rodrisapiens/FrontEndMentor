@@ -1,0 +1,115 @@
+.card {
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 500px;
+  width: 320px;
+  margin-top: 40px;
+}
+
+.mid {
+  font-family: Red Hat Display;
+  font-weight: 500;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img {
+  position: relative;
+  border-radius: 5px;
+}
+
+.top {
+  border-radius: 15px 15px 0 0;
+  height: 160px;
+  width: 320px;
+  background-image: url(D:\Rodrigo\Documentos\codes\frontend-mentor\order-summary-component\src\Components\illustration-hero.svg);
+  background-position: center;
+  background-position-y: -22px;
+  background-position-x: -65px;
+}
+
+.text {
+  padding-inline: 55px;
+  text-align: center;
+  color: #9699AA;
+}
+
+.anualplan-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  height: 50px;
+  padding-inline: 20px;
+  background-color: #F8F9FE;
+  width: 222px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+.change {
+  color: blue;
+  -webkit-text-decoration: underline blue;
+          text-decoration: underline blue;
+}
+
+.change:hover {
+  color: #766CF1;
+  -webkit-text-decoration: underline #766CF1;
+          text-decoration: underline #766CF1;
+}
+
+h4 {
+  margin-top: 7px;
+}
+
+.price {
+  margin-top: -20px;
+  color: #9699AA;
+}
+
+.blue-btn {
+  color: white;
+  background-color: #382AE1;
+  height: 35px;
+  border-radius: 10px;
+  border-style: none;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.blue-btn:hover {
+  background-color: #766CF1;
+}
+
+.bottom {
+  display: -ms-grid;
+  display: grid;
+  padding-inline: 35px;
+  margin-top: 20px;
+}
+
+.white-btn {
+  font-weight: bold;
+  background-color: white;
+  border-style: hidden;
+  margin-top: 10px;
+  color: #7D7F91;
+}
+
+.white-btn:hover {
+  color: black;
+}
+/*# sourceMappingURL=Card.css.map */
