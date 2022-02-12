@@ -1,0 +1,11 @@
+body
+{
+  background: #0A0C1B;
+}
+.background
+{
+  display: grid;
+justify-content: center;
+padding-top: 145px;
+}
+

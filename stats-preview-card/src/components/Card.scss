@@ -1,0 +1,58 @@
+.img-personas
+{
+    height: 360px;
+    width: 435px;
+opacity: 0.5;
+}
+
+.text
+{
+background-color: #1C1938;
+height: 360px;
+width: 435px;
+color: white;
+font-family: 'Inter', sans-serif;
+}
+
+.card
+{
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.numers
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px;
+margin-top: -115px;
+}
+.insights
+{
+    color: #A45AD5;
+}
+.littletext
+{
+    color:#817F94;
+    font-size: 15px;
+}
+.names-numbers
+{
+    color:#817F94;
+    margin-top: -24px;
+
+}
+.maintext
+{
+    padding: 60px;
+}
+.background-personas
+{
+    background-color: #A15FCC;
+    height: 360px;
+width: 435px;
+
+}
+.title{
+    font-size: 30px;
+}
