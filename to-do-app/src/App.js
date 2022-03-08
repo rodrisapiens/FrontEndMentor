@@ -1,8 +1,7 @@
 import './main-styles/app.css';
-import { useState, useRef, useEffect, useReducer } from 'react';
+import { useState, useEffect, useReducer } from 'react';
 import { ReactComponent as Sun } from "./images/icon-sun.svg";
 import { ReactComponent as Moon } from "./images/icon-moon.svg";
-import ToDoList from './ToDoList';
 import Task from "./Task"
 import { DoneContext, ActiveContext, ShowContext,ActiveTask, contexFromIndex} from "./Context";
 import BoxFootComands from "./BoxFootComands"
@@ -25,7 +24,6 @@ function reducer(listTasks, action) {
         return task;
       })
     case actions.delete:
-      console.log("borrar");
       return listTasks.filter(task => task.id !== action.payLoad.id);
 
     case actions.clear:

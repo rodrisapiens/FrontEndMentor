@@ -1,13 +1,12 @@
-import React, { useContext,useState } from 'react';
+import React, { useContext } from 'react';
 import "./main-styles/task.css";
-import { DoneContext, ActiveContext,ShowContext } from "./Context";
+import {ActiveContext,ShowContext } from "./Context";
 import {actions} from "./App.js";
 
 
 
 function BoxFootComands({dispatch}) {
-    const {listDone, setListDone} = useContext(DoneContext);
-    const {listActive, setListActive} = useContext(ActiveContext);
+    const {listActive} = useContext(ActiveContext);
     const {showContext,setShowContext}=useContext(ShowContext);
 
     return <div className='comandLine'>
